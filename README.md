@@ -37,6 +37,8 @@ For any mechanism you can't see through, a one-screen answer in five fixed parts
 
 Every answer ends with an escalation line: reply **"go deeper"** (or 展开讲) and you get the full-length professional version. Jargon discipline throughout: every acronym is expanded with a plain-language gloss on first use — e.g. "OIDC (OpenID Connect, an open standard for A proving to B *who it is*)".
 
+Conclusion-first, one screen, jargon glossed, depth on request — easy on the attention budget.
+
 <details>
 <summary><b>Real sample output</b> — "Our repo has zero AWS keys in secrets, yet CI deploys to S3 just fine. Why does AWS let us in? Who trusts whom?" (click to expand)</summary>
 
