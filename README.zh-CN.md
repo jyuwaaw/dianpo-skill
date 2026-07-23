@@ -73,9 +73,17 @@ GitHub OIDC 签发方             你的 CI job                AWS STS / IAM
 
 ## 安装
 
+一行搞定,用 [skills.sh](https://skills.sh) 的 CLI(Claude Code / Cursor / Copilot / Gemini 都支持):
+
+```bash
+npx skills add jyuwaaw/dianpo-skill
+```
+
+或者手动 clone 拷进去:
+
 ```bash
 git clone https://github.com/jyuwaaw/dianpo-skill.git
-cp -r dianpo-skill/dianpo ~/.claude/skills/
+cp -r dianpo-skill/skills/dianpo ~/.claude/skills/
 ```
 
 个人级装到 `~/.claude/skills/dianpo/`(所有项目可用);只想在某个项目里用,放到该项目的 `.claude/skills/dianpo/`。装完开个新 session 即生效,`claude` CLI、桌面版、web 版都支持。

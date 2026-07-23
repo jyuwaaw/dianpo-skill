@@ -76,9 +76,17 @@ GitHub OIDC issuer            your CI job                AWS STS / IAM
 
 ## Install
 
+One line, via the [skills.sh](https://skills.sh) CLI (works with Claude Code, Cursor, Copilot, Gemini, and more):
+
+```bash
+npx skills add jyuwaaw/dianpo-skill
+```
+
+Or clone and copy it in manually:
+
 ```bash
 git clone https://github.com/jyuwaaw/dianpo-skill.git
-cp -r dianpo-skill/dianpo ~/.claude/skills/
+cp -r dianpo-skill/skills/dianpo ~/.claude/skills/
 ```
 
 `~/.claude/skills/dianpo/` makes it available in every project; for a single project, use `<project>/.claude/skills/dianpo/` instead. Works in Claude Code CLI, desktop, and web — new sessions pick it up automatically.
