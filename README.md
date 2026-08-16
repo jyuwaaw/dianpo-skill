@@ -107,6 +107,8 @@ cp -r dianpo-skill/skills/dianpo ~/.claude/skills/
 
 **Escalation** — reply "go deeper" / "讲的专业点" to any answer for the unabridged version.
 
+For sanitized examples from the author's real sessions — including what triggering looks like mid-task — see [EXAMPLES.md](EXAMPLES.md).
+
 ## Does it actually help?
 
 Benchmarked against baseline Claude (no skill) on 3 scenarios — a domain-verification challenge, GitHub Actions OIDC → AWS, and Stripe webhook signature direction — with 10 assertions each:

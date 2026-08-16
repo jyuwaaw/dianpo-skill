@@ -101,6 +101,8 @@ cp -r dianpo-skill/skills/dianpo ~/.claude/skills/
 
 **要详细版**:对着任何一个点破式回答说"**展开讲**"或"**讲的专业点**"。
 
+想看作者真实会话里的脱敏案例(包括干活干到一半是怎么触发的),见 [EXAMPLES.md](EXAMPLES.md)。
+
 ## 效果验证
 
 用 3 个场景(域名验证 challenge、GitHub Actions OIDC 免密钥换 AWS 凭证、Stripe webhook 签名方向)做了带/不带 skill 的对照,每个场景 10 条断言:
